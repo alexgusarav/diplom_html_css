@@ -111,6 +111,11 @@ body {
     
 }
 
+.menu-item:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
 .header__title {
     width: 700px;
     margin: auto;
@@ -222,9 +227,29 @@ body {
     text-transform: uppercase;
 }
 
+.trands-tag-link {
+    color: rgb(181, 159, 91);
+}
+
+.trands-tag-link:hover {
+    color: rgb(181, 159, 91);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 .trends__title {
     color: #ffffff;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+.trends-title-link {
+    color: #ffffff;
+}
+
+.trends-title-link:hover {
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .container-article {
@@ -252,6 +277,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
     
+}
+
+.article-title-link {
+    color:#000
 }
 
 .container-article-data-author {
